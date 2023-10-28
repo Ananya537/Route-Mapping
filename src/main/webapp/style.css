@@ -1,110 +1,38 @@
-#map {
-    height: 83vh;
+body {
+    position: relative;
+    padding-top: 10px;
+  }
+  
+.container-fluid{
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 15px;
 }
 
-.container-fluid{
-    padding: 1% 6%;
+#navbar-everywhere{
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 25px;
 }
 
 .source-list{
 	padding-bottom: 10px;
 }
 
-/* Styling for the map */
-#map {
-    height: 500px; /* Adjust the height as needed */
-    width: 100%; /* Make the map width 100% of its container */
-    border-radius: 10px;
-    border: 1px solid #ccc;
-}
 
-/* Styling for the container holding the map and cards */
-.container-fluid {
-    padding: 2%; /* Add some padding for better spacing */
-}
 
-/* Styling for the source and destination dropdowns */
-#selectOption1,
-#selectOption2 {
-    width: 100%;
-    padding: 10px;
-    border-radius: 25px;
-    border: 2px solid #ccc;
-    margin-bottom: 15px;
-    font-family: 'Montserrat', sans-serif; /* Apply a specific font if needed */
-}
+.dynamic-div {
+            width: 100px;
+            height: 50px;
+            background-color: lightblue;
+            margin: 10px;
+            text-align: center;
+            line-height: 50px;
+        }
 
-/* Styling for the buttons */
-.btn {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    font-family: 'Poppins', sans-serif; /* Apply a specific font if needed */
-}
-
-/* Styling for the toggle button */
-#toggleButton {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: 'Ubuntu', sans-serif; /* Apply a specific font if needed */
-}
-
-/* Styling for the cards */
-.card {
-    width: 100%;
-    padding-top: 10px;
-    margin-right: 10px;
-    height: auto; /* Adjust the card height as needed */
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card-title {
-    font-weight: bold;
-}
-
-.card-text {
-    font-family: 'PT Sans', sans-serif; /* Apply a specific font if needed */
-}
-
-/* Styling for the navbar brand */
-.navbar-brand {
-    font-family: 'Poppins', sans-serif; /* Apply a specific font if needed */
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-}
-
-/* Optional: Apply a background color to the navbar */
-.navbar-brand {
-    background-color: #f8f9fa; /* Change the background color as desired */
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Styling for the section headers */
-#route-mapping {
-    background-color: #f8f9fa; /* Change the background color as desired */
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-#course {
-    padding: 20px;
-}
-
-/* Optional: Center the section headers */
-#route-mapping h1,
-#course h1 {
-    text-align: center;
-}
-
-/* Optional: Add a border to the section headers */
-#route-mapping,
-#course {
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-}
